@@ -1,0 +1,63 @@
+:root{
+    --color-primario:#EFF5F5;
+    --color-secundario:#00425A;
+    --color-terciario:#1F8A70;
+    --color-cuaternario:#FC7300;
+    --color-quinario:#181823;
+}
+
+.barra-de-navegacion{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-primario)
+}
+
+.baner{
+    color: var(--color-primario);
+    background-color:var(--color-secundario);
+    font-family: 'Belanosima', sans-serif;
+}
+
+.titulo{
+    color: var(--color-secundario);
+    font-family: 'Belanosima', sans-serif;
+}
+
+.cuerpo{
+    background-color: var(--color-primario);
+}
+
+.texto{
+    color: var(--color-quinario);
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo-dos{
+    font-family: 'Belanosima', sans-serif;
+}
+
+.bloque{
+    background-color: var(--color-cuaternario);
+}
+
+.bloque-dos{
+    background-color: var(--color-terciario);
+}
+
+.boton{
+    background-color: var(--color-secundario);
+}
+
+.pie-de-pagina{
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
+    font-family: 'Belanosima', sans-serif;
+}
+
+.pie-de-pagina div > ul > li > a{
+    list-style: none;
+    text-decoration: none;
+    color: var(--color-primario);
+    font-family: 'Poppins', sans-serif;   
+}
+
+
